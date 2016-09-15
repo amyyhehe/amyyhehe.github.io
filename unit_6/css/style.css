@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Lalezar);
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #EDDBB2;
+	font-family: arial;
+	font-family: 'Droid Serif', serif;
+}	
+
+h1 {
+	font-size: 40px;
+	font-family: 'Lalezar', sans-serif;
+
+}
+
+.container {
+	background: url('../images/hero_image.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% auto;
+	/*-webkit-background-size: contain;*/
+	min-height: 600px;
+	height: 600px;
+	position: relative;
+}
+
+#slogan {
+	font-size: 80px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.centered {
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+#description {
+	margin-top: 10px;
+}
+
+h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#email {
+	margin-top: 20px;
+	display: block
+}
+
+section {
+	padding: 40px;
+	width: 100%;
+	margin: auto;
+}
+
+#profile {
+	background-color: white;
+}
+
+#about {
+	display: block;
+	max-width: 40%;
+	float: left;
+}
+
+#carlpic {
+	max-width: 200px;
+	max-height: 400px;
+}
+
+.picture_container {
+	margin-left: 60%;
+}
+
+#gallery {
+	background-color: white;
+}
